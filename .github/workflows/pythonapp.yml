@@ -16,5 +16,5 @@ jobs:
     - name: Build & Push Image
       run: |
         echo "${{ secrets.DOCKERPW }}" | docker login -u "priyaa221" --password-stdin 
-        docker image build -t priyaa221/springcld:v1 .
-        docker push priyaa221/springcld:v1
+        docker image build -t priyaa221/springcloudd:v1 .
+        docker push priyaa221/springclpudd:v1
